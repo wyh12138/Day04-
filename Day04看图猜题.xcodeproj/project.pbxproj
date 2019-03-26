@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6728D21621990BEF00F01A45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6728D21521990BEF00F01A45 /* AppDelegate.m */; };
+		6728D21921990BEF00F01A45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6728D21821990BEF00F01A45 /* ViewController.m */; };
+		6728D21C21990BEF00F01A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6728D21A21990BEF00F01A45 /* Main.storyboard */; };
+		6728D21E21990BEF00F01A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6728D21D21990BEF00F01A45 /* Assets.xcassets */; };
+		6728D22121990BEF00F01A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6728D21F21990BEF00F01A45 /* LaunchScreen.storyboard */; };
+		6728D22421990BEF00F01A45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6728D22321990BEF00F01A45 /* main.m */; };
+		6728D22E21990BF000F01A45 /* Day04____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6728D22D21990BF000F01A45 /* Day04____Tests.m */; };
+		6728D23921990BF000F01A45 /* Day04____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6728D23821990BF000F01A45 /* Day04____UITests.m */; };
+		6728D24B219960E900F01A45 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6728D24A219960E900F01A45 /* background.jpg */; };
+		6728D25321996BF300F01A45 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6728D25221996BF300F01A45 /* bg.jpg */; };
+		6728D2552199700F00F01A45 /* jinbi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6728D2542199700F00F01A45 /* jinbi.png */; };
+		6728D2572199708000F01A45 /* jinbi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6728D2562199708000F01A45 /* jinbi2.png */; };
+		6728D259219991AC00F01A45 /* bgWhite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6728D258219991AC00F01A45 /* bgWhite.jpg */; };
+		6728D2622199954000F01A45 /* quanyecha.png in Resources */ = {isa = PBXBuildFile; fileRef = 6728D2612199953F00F01A45 /* quanyecha.png */; };
+		6728D2642199954400F01A45 /* ali.png in Resources */ = {isa = PBXBuildFile; fileRef = 6728D2632199954400F01A45 /* ali.png */; };
+		6728D2662199954A00F01A45 /* guilian.png in Resources */ = {isa = PBXBuildFile; fileRef = 6728D2652199954A00F01A45 /* guilian.png */; };
+		6728D2682199972500F01A45 /* bgPink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6728D2672199972500F01A45 /* bgPink.jpg */; };
+		6728D26B2199996900F01A45 /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6728D26A2199996900F01A45 /* questions.plist */; };
+		6728D26E21999C4300F01A45 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 6728D26D21999C4300F01A45 /* Question.m */; };
+		6728D272219A5F1F00F01A45 /* ali2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6728D271219A5F1F00F01A45 /* ali2.jpeg */; };
+		6728D274219A5FD100F01A45 /* dajia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6728D273219A5FD100F01A45 /* dajia.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6728D22A21990BF000F01A45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6728D20921990BEF00F01A45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6728D21021990BEF00F01A45;
+			remoteInfo = "Day04看图猜题";
+		};
+		6728D23521990BF000F01A45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6728D20921990BEF00F01A45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6728D21021990BEF00F01A45;
+			remoteInfo = "Day04看图猜题";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6728D21121990BEF00F01A45 /* Day04看图猜题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day04看图猜题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6728D21421990BEF00F01A45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6728D21521990BEF00F01A45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6728D21721990BEF00F01A45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6728D21821990BEF00F01A45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6728D21B21990BEF00F01A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6728D21D21990BEF00F01A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6728D22021990BEF00F01A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6728D22221990BEF00F01A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6728D22321990BEF00F01A45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6728D22921990BF000F01A45 /* Day04看图猜题Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day04看图猜题Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6728D22D21990BF000F01A45 /* Day04____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Day04____Tests.m"; sourceTree = "<group>"; };
+		6728D22F21990BF000F01A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6728D23421990BF000F01A45 /* Day04看图猜题UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Day04看图猜题UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6728D23821990BF000F01A45 /* Day04____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Day04____UITests.m"; sourceTree = "<group>"; };
+		6728D23A21990BF000F01A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6728D24A219960E900F01A45 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		6728D25221996BF300F01A45 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		6728D2542199700F00F01A45 /* jinbi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jinbi.png; sourceTree = "<group>"; };
+		6728D2562199708000F01A45 /* jinbi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jinbi2.png; sourceTree = "<group>"; };
+		6728D258219991AC00F01A45 /* bgWhite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgWhite.jpg; sourceTree = "<group>"; };
+		6728D2612199953F00F01A45 /* quanyecha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quanyecha.png; sourceTree = "<group>"; };
+		6728D2632199954400F01A45 /* ali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ali.png; sourceTree = "<group>"; };
+		6728D2652199954A00F01A45 /* guilian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guilian.png; sourceTree = "<group>"; };
+		6728D2672199972500F01A45 /* bgPink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgPink.jpg; sourceTree = "<group>"; };
+		6728D26A2199996900F01A45 /* questions.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		6728D26C21999C4300F01A45 /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		6728D26D21999C4300F01A45 /* Question.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		6728D271219A5F1F00F01A45 /* ali2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ali2.jpeg; sourceTree = "<group>"; };
+		6728D273219A5FD100F01A45 /* dajia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dajia.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6728D20E21990BEF00F01A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728D22621990BF000F01A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728D23121990BF000F01A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6728D20821990BEF00F01A45 = {
+			isa = PBXGroup;
+			children = (
+				6728D21321990BEF00F01A45 /* Day04看图猜题 */,
+				6728D22C21990BF000F01A45 /* Day04看图猜题Tests */,
+				6728D23721990BF000F01A45 /* Day04看图猜题UITests */,
+				6728D21221990BEF00F01A45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6728D21221990BEF00F01A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6728D21121990BEF00F01A45 /* Day04看图猜题.app */,
+				6728D22921990BF000F01A45 /* Day04看图猜题Tests.xctest */,
+				6728D23421990BF000F01A45 /* Day04看图猜题UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6728D21321990BEF00F01A45 /* Day04看图猜题 */ = {
+			isa = PBXGroup;
+			children = (
+				6728D22221990BEF00F01A45 /* Info.plist */,
+				6728D2692199992900F01A45 /* SupportFiles */,
+				6728D24921990EB200F01A45 /* Others */,
+				6728D24821990E6500F01A45 /* Views */,
+				6728D24721990E5900F01A45 /* Models */,
+				6728D24621990E4200F01A45 /* Controllers */,
+			);
+			path = "Day04看图猜题";
+			sourceTree = "<group>";
+		};
+		6728D22C21990BF000F01A45 /* Day04看图猜题Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6728D22D21990BF000F01A45 /* Day04____Tests.m */,
+				6728D22F21990BF000F01A45 /* Info.plist */,
+			);
+			path = "Day04看图猜题Tests";
+			sourceTree = "<group>";
+		};
+		6728D23721990BF000F01A45 /* Day04看图猜题UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6728D23821990BF000F01A45 /* Day04____UITests.m */,
+				6728D23A21990BF000F01A45 /* Info.plist */,
+			);
+			path = "Day04看图猜题UITests";
+			sourceTree = "<group>";
+		};
+		6728D24621990E4200F01A45 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6728D21721990BEF00F01A45 /* ViewController.h */,
+				6728D21821990BEF00F01A45 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6728D24721990E5900F01A45 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6728D26C21999C4300F01A45 /* Question.h */,
+				6728D26D21999C4300F01A45 /* Question.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6728D24821990E6500F01A45 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6728D21A21990BEF00F01A45 /* Main.storyboard */,
+				6728D21F21990BEF00F01A45 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6728D24921990EB200F01A45 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6728D25A2199924100F01A45 /* image */,
+				6728D21421990BEF00F01A45 /* AppDelegate.h */,
+				6728D21521990BEF00F01A45 /* AppDelegate.m */,
+				6728D22321990BEF00F01A45 /* main.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6728D25A2199924100F01A45 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				6728D273219A5FD100F01A45 /* dajia.jpg */,
+				6728D271219A5F1F00F01A45 /* ali2.jpeg */,
+				6728D2672199972500F01A45 /* bgPink.jpg */,
+				6728D2652199954A00F01A45 /* guilian.png */,
+				6728D2632199954400F01A45 /* ali.png */,
+				6728D2612199953F00F01A45 /* quanyecha.png */,
+				6728D258219991AC00F01A45 /* bgWhite.jpg */,
+				6728D2562199708000F01A45 /* jinbi2.png */,
+				6728D2542199700F00F01A45 /* jinbi.png */,
+				6728D25221996BF300F01A45 /* bg.jpg */,
+				6728D24A219960E900F01A45 /* background.jpg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		6728D2692199992900F01A45 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6728D21D21990BEF00F01A45 /* Assets.xcassets */,
+				6728D26A2199996900F01A45 /* questions.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6728D21021990BEF00F01A45 /* Day04看图猜题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6728D23D21990BF000F01A45 /* Build configuration list for PBXNativeTarget "Day04看图猜题" */;
+			buildPhases = (
+				6728D20D21990BEF00F01A45 /* Sources */,
+				6728D20E21990BEF00F01A45 /* Frameworks */,
+				6728D20F21990BEF00F01A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Day04看图猜题";
+			productName = "Day04看图猜题";
+			productReference = 6728D21121990BEF00F01A45 /* Day04看图猜题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6728D22821990BF000F01A45 /* Day04看图猜题Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6728D24021990BF000F01A45 /* Build configuration list for PBXNativeTarget "Day04看图猜题Tests" */;
+			buildPhases = (
+				6728D22521990BF000F01A45 /* Sources */,
+				6728D22621990BF000F01A45 /* Frameworks */,
+				6728D22721990BF000F01A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6728D22B21990BF000F01A45 /* PBXTargetDependency */,
+			);
+			name = "Day04看图猜题Tests";
+			productName = "Day04看图猜题Tests";
+			productReference = 6728D22921990BF000F01A45 /* Day04看图猜题Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6728D23321990BF000F01A45 /* Day04看图猜题UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6728D24321990BF000F01A45 /* Build configuration list for PBXNativeTarget "Day04看图猜题UITests" */;
+			buildPhases = (
+				6728D23021990BF000F01A45 /* Sources */,
+				6728D23121990BF000F01A45 /* Frameworks */,
+				6728D23221990BF000F01A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6728D23621990BF000F01A45 /* PBXTargetDependency */,
+			);
+			name = "Day04看图猜题UITests";
+			productName = "Day04看图猜题UITests";
+			productReference = 6728D23421990BF000F01A45 /* Day04看图猜题UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6728D20921990BEF00F01A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = xxg415;
+				TargetAttributes = {
+					6728D21021990BEF00F01A45 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6728D22821990BF000F01A45 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6728D21021990BEF00F01A45;
+					};
+					6728D23321990BF000F01A45 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6728D21021990BEF00F01A45;
+					};
+				};
+			};
+			buildConfigurationList = 6728D20C21990BEF00F01A45 /* Build configuration list for PBXProject "Day04看图猜题" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6728D20821990BEF00F01A45;
+			productRefGroup = 6728D21221990BEF00F01A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6728D21021990BEF00F01A45 /* Day04看图猜题 */,
+				6728D22821990BF000F01A45 /* Day04看图猜题Tests */,
+				6728D23321990BF000F01A45 /* Day04看图猜题UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6728D20F21990BEF00F01A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6728D2622199954000F01A45 /* quanyecha.png in Resources */,
+				6728D22121990BEF00F01A45 /* LaunchScreen.storyboard in Resources */,
+				6728D2642199954400F01A45 /* ali.png in Resources */,
+				6728D24B219960E900F01A45 /* background.jpg in Resources */,
+				6728D21E21990BEF00F01A45 /* Assets.xcassets in Resources */,
+				6728D25321996BF300F01A45 /* bg.jpg in Resources */,
+				6728D259219991AC00F01A45 /* bgWhite.jpg in Resources */,
+				6728D26B2199996900F01A45 /* questions.plist in Resources */,
+				6728D2552199700F00F01A45 /* jinbi.png in Resources */,
+				6728D2682199972500F01A45 /* bgPink.jpg in Resources */,
+				6728D2662199954A00F01A45 /* guilian.png in Resources */,
+				6728D272219A5F1F00F01A45 /* ali2.jpeg in Resources */,
+				6728D2572199708000F01A45 /* jinbi2.png in Resources */,
+				6728D274219A5FD100F01A45 /* dajia.jpg in Resources */,
+				6728D21C21990BEF00F01A45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728D22721990BF000F01A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728D23221990BF000F01A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6728D20D21990BEF00F01A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6728D21921990BEF00F01A45 /* ViewController.m in Sources */,
+				6728D26E21999C4300F01A45 /* Question.m in Sources */,
+				6728D22421990BEF00F01A45 /* main.m in Sources */,
+				6728D21621990BEF00F01A45 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728D22521990BF000F01A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6728D22E21990BF000F01A45 /* Day04____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6728D23021990BF000F01A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6728D23921990BF000F01A45 /* Day04____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6728D22B21990BF000F01A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6728D21021990BEF00F01A45 /* Day04看图猜题 */;
+			targetProxy = 6728D22A21990BF000F01A45 /* PBXContainerItemProxy */;
+		};
+		6728D23621990BF000F01A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6728D21021990BEF00F01A45 /* Day04看图猜题 */;
+			targetProxy = 6728D23521990BF000F01A45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6728D21A21990BEF00F01A45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6728D21B21990BEF00F01A45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6728D21F21990BEF00F01A45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6728D22021990BEF00F01A45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6728D23B21990BF000F01A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6728D23C21990BF000F01A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6728D23E21990BF000F01A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UFV44YW4G;
+				INFOPLIST_FILE = "Day04看图猜题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.test.Day04----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6728D23F21990BF000F01A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UFV44YW4G;
+				INFOPLIST_FILE = "Day04看图猜题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.test.Day04----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6728D24121990BF000F01A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UFV44YW4G;
+				INFOPLIST_FILE = "Day04看图猜题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.test.Day04----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day04看图猜题.app/Day04看图猜题";
+			};
+			name = Debug;
+		};
+		6728D24221990BF000F01A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UFV44YW4G;
+				INFOPLIST_FILE = "Day04看图猜题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.test.Day04----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Day04看图猜题.app/Day04看图猜题";
+			};
+			name = Release;
+		};
+		6728D24421990BF000F01A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UFV44YW4G;
+				INFOPLIST_FILE = "Day04看图猜题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.test.Day04----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day04看图猜题";
+			};
+			name = Debug;
+		};
+		6728D24521990BF000F01A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3UFV44YW4G;
+				INFOPLIST_FILE = "Day04看图猜题UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wt.test.Day04----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Day04看图猜题";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6728D20C21990BEF00F01A45 /* Build configuration list for PBXProject "Day04看图猜题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728D23B21990BF000F01A45 /* Debug */,
+				6728D23C21990BF000F01A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6728D23D21990BF000F01A45 /* Build configuration list for PBXNativeTarget "Day04看图猜题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728D23E21990BF000F01A45 /* Debug */,
+				6728D23F21990BF000F01A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6728D24021990BF000F01A45 /* Build configuration list for PBXNativeTarget "Day04看图猜题Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728D24121990BF000F01A45 /* Debug */,
+				6728D24221990BF000F01A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6728D24321990BF000F01A45 /* Build configuration list for PBXNativeTarget "Day04看图猜题UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728D24421990BF000F01A45 /* Debug */,
+				6728D24521990BF000F01A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6728D20921990BEF00F01A45 /* Project object */;
+}
